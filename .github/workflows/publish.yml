@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 18
           registry-url: 'https://npm.pkg.github.com'
-          scope: 'quoioln'  # Thay bằng username của bạn
+          scope: '@quoioln/hapi-rate-limitor'  # Thay bằng username của bạn
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
